@@ -12,7 +12,7 @@ class Solution:
         res = []
 
         # Loop through each words in the list
-        for i, word in enumerate(words):
+        for word in words:
             # check if the current word is a substring of any other word in the list
             for other_word in words:
                 # avoid comparing to each other
